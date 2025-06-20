@@ -13,29 +13,56 @@ const About = () => {
       <div className="flex flex-col lgl:flex-row gap-16">
         <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
           <p>
-            Hello! My name is Noor Mohammad and I enjoy creating things that
-            live on the internet. My interest in web development started back in
-            2012 when I decided to try editing custom Tumblr themes — turns out
-            hacking together a custom reblog button taught me a lot about HTML &
-            CSS!
-          </p>
-          <p>
-            Fast-forward to today, and I had the privilege of working at an
-            advertising agency, a start-up,{" "}
+            <span className="text-textGreen font-semibold">
+              MERN Stack Developer | Full-Stack Developer
+            </span>{" "}
+            — I specialize in building dynamic, high-performance web
+            applications using
             <span className="text-textGreen">
-              a huge corporation, and a student-led design studio.
-            </span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio rem
-            accusantium fugiat veritatis, quidem repellat{" "}
+              {" "}
+              React.js, Node.js, Express.js,
+            </span>{" "}
+            and
+            <span className="text-textGreen"> MongoDB</span>. With proficiency
+            in both
+            <span className="text-textGreen"> MongoDB and MySQL</span>, I adapt
+            seamlessly to the specific needs of each project.
+          </p>
+
+          <p className="mt-2">
+            I excel at creating{" "}
+            <span className="text-textGreen">responsive user interfaces</span>,
+            designing
+            <span className="text-textGreen"> RESTful APIs</span>, and
+            integrating
+            <span className="text-textGreen">real-time features</span>. I also
+            have hands-on experience with
+            <span className="text-textGreen">Electron.js</span> to develop
+            cross-platform desktop applications that run smoothly across
+            Windows, macOS, and Linux.
+          </p>
+
+          <p className="mt-2">
+            Additionally, I'm well-versed in{" "}
             <span className="text-textGreen">
-              ab natus possimus? Sint, accusamus!
+              Linux-based server management
             </span>
+            , including deployment and maintenance using tools like
+            <span className="text-textGreen"> CyberPanel, Hostinger,</span> and
+            <span className="text-textGreen"> aaPanel</span>. I manage domains,
+            configure SSLs, handle databases, and optimize servers for secure
+            and stable application hosting.
           </p>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem
-            ullam eligendi dolorum nostrum possimus quos iusto magnam ut esse
-            recusandae.
+
+          <p className="mt-2">
+            Fast-forward to today, I've had the privilege of working with a
+            <span className="text-textGreen">
+              startup and an advertising agency
+            </span>
+            , where I contributed to building products from scratch, solving
+            performance issues, and shipping features that matter.
           </p>
+
           <p>Here are a few technologies I have been working with recently:</p>
           <ul className="max-w-[450px] text-sm font-titleFont grid grid-cols-2 gap-2 mt-6">
             <li className="flex items-center gap-2">
